@@ -8,4 +8,5 @@ const DoctorSchema = new mongoose.Schema({
   schedule: [String],
 });
 
+
 module.exports = mongoose.model("Doctor", DoctorSchema);
