@@ -7,11 +7,11 @@ export default function DoctorProfile() {
 
   useEffect(() => {
     const fetchData = async () => {
-      const docRes = await fetch(`http://localhost:5000/api/doctors/${id}`);
+      const docRes = await fetch(`https://doctorappointment-innh.onrender.com/api/doctors/${id}`);
       const docData = await docRes.json();
 
       const apptRes = await fetch(
-        `http://localhost:5000/api/appointments/doctor/${id}`
+        `https://doctorappointment-innh.onrender.com/api/appointments/doctor/${id}`
       );
       const apptData = await apptRes.json();
 
