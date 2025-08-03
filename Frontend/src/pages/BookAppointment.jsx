@@ -14,7 +14,7 @@ export default function BookAppointment() {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    const res = await fetch(`http://localhost:5000/api/appointments`, {
+    const res = await fetch(`https://doctorappointment-innh.onrender.com/api/appointments`, {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ ...form, doctorId: id }),
