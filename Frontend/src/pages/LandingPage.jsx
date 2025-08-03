@@ -6,7 +6,7 @@ export default function LandingPage() {
   const [search, setSearch] = useState("");
 
   useEffect(() => {
-    fetch("http://localhost:5000/api/doctors")
+    fetch(`https://doctorappointment-innh.onrender.com/api/doctors`)
       .then((res) => res.json())
       .then((data) => setDoctors(data));
   }, []);
