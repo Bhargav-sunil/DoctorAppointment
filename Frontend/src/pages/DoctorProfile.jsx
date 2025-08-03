@@ -94,6 +94,7 @@ export default function DoctorProfile() {
             </button>
           )}
         </div>
+        
         <div className="mt-4 text-center">
           <Link
             to="/"
