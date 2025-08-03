@@ -20,13 +20,20 @@ RESTful APIs using Express.js
 
 ## Tech Stack
 **Frontend** 
+
 React.js
+
 Tailwind CSS
+
 React Router
 
 **Backend**
+
 Node.js
+
 Express.js
+
 MongoDB / Mongoose
 
-
+#Author
+Made by Bhargav Sunil
